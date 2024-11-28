@@ -1,8 +1,9 @@
+# Link Dataset
+
 # Dog Diseases Classification Modeling
 This repository contains 2 folders to store our notebook for 2 different models. Both models trained using TensorFlow, and the dataset can be found in dataset folder.
-
 # Dog Symptoms Model
-The model aim to accurately classify 12 dog diseases based on symptoms given using ANN and it has been implemented in our application. The tabular dataset was forked from [this repository](https://github.com/1zuu/Doggy-Disease-Detection/blob/master/data/symtomdata.csv)
+The model aim to accurately classify 12 dog diseases based on symptoms given using ANN and it has been implemented in our application. 
 | **Information** | **Value** |
 | --- | --- |
 | Preprocessing Technique | One Hot Encoding |
