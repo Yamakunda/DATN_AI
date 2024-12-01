@@ -1,5 +1,5 @@
 # Link Dataset
-
+https://drive.google.com/drive/u/1/folders/1dGwd-tVZIEc4dXY5SW13CfTlEUHZGDIw
 # Dog Diseases Classification Modeling
 This repository contains 2 folders to store our notebook for 2 different models. Both models trained using TensorFlow, and the dataset can be found in dataset folder.
 # Dog Symptoms Model

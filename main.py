@@ -5,8 +5,17 @@ import numpy as np
 from PIL import Image
 import io
 import base64
+from flask_cors import CORS
 
 app = Flask(__name__)
+# Enable CORS for all routes
+CORS(app, resources={
+    r"/*": {
+        "origins": ["http://localhost:3000"],  # React development server
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type"]
+    }
+})
 
 # Load model and initialize data structures
 model_data = tf.keras.models.load_model('./DogSymptomsModel/dog_model.h5')
